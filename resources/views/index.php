@@ -85,7 +85,7 @@
 
    <div class="mdl-grid">
      
-     <div class="mdl-color--white mdl-cell mdl-cell--12-col mdl-typography--text-center">
+     <div class="mdl-color--white mdl-cell mdl-cell--12-col ">
        
       <div  ng-hide="loading" ng-repeat="post in posts">
         <h3>Comentario #{{ post.id }} <small>por {{ post.autor }}</h3>
